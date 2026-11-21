@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="./assets/banner.gif" alt="Creation of Code // LevCodeLab" width="100%" />
+  <img src="./assets/hands.gif" alt="Creation of Code // LevCodeLab" width="100%" />
+</p>
+
+<p align="center">
+  <img src="./assets/banner.svg" alt="LevCodeLab Banner" width="100%" />
 </p>
 
 ### Namaste, I am Prakhar
