@@ -1,4 +1,6 @@
-![LevCodeLab Banner](./assets/banner.svg)
+<p align="center">
+  <img src="./assets/banner.gif" alt="Creation of Code // LevCodeLab" width="100%" />
+</p>
 
 ### Namaste, I am Prakhar
 
