@@ -22,7 +22,7 @@ I am a systems and fullstack dev from India. I spend most nights building fast b
 ![WebCrypto](https://img.shields.io/badge/WebCrypto-AES_GCM-141418?style=flat-square&color=141418&labelColor=26262E)
 ![Mobile PWA](https://img.shields.io/badge/Mobile-Safari_PWA-141418?style=flat-square&color=141418&labelColor=26262E)
 
-### All 16 Open Source Repos
+### All 18 Open Source Repos
 
 Every repo below is small, tested, and ready to clone in 60 seconds.
 
@@ -53,12 +53,14 @@ Every repo below is small, tested, and ready to clone in 60 seconds.
 | [crypto-pnl-leaderboard](https://github.com/LevCodeLab/crypto-pnl-leaderboard) | TypeScript + SQLite EVM wallet PnL scorer that catches fake insiders |
 | [floating-chart-widget](https://github.com/LevCodeLab/floating-chart-widget) | Tiny Shadow DOM draggable overlay widget and Chrome MV3 starter |
 | [ios-safari-fullscreen-pwa](https://github.com/LevCodeLab/ios-safari-fullscreen-pwa) | Fixes the annoying iOS Safari `100dvh` bottom blank bar bug |
+| [evm-token-launchpad](https://github.com/LevCodeLab/evm-token-launchpad) | Solidity `0.8.24` bonding curve token factory with auto Uniswap V2 LP |
 
 #### Browser Audio & Live Voice Rooms
 
 | Repo | What it does in plain words |
 | :--- | :--- |
 | [live-voice-rooms](https://github.com/LevCodeLab/live-voice-rooms) | One click browser WebRTC voice rooms with a tiny WebSocket server |
+| [wallet-voice-call](https://github.com/LevCodeLab/wallet-voice-call) | Encrypted wallet to wallet WebRTC voice calls with zero phone numbers |
 | [lofi-music-generator](https://github.com/LevCodeLab/lofi-music-generator) | Zero MP3 LoFi music and vinyl crackle synth using Web Audio API |
 | [live-listener-counter](https://github.com/LevCodeLab/live-listener-counter) | Heartbeat listener counter and streak tracker with zero npm bloat |
 
