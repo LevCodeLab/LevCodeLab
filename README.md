@@ -1,6 +1,6 @@
 ![LevCodeLab Banner](./assets/banner.svg)
 
-### Namaste, I am Lev
+### Namaste, I am Prakhar
 
 I am a systems and fullstack dev from India. I spend most nights building fast backend stuff, weird browser audio toys, and clean dark UIs. Everything here runs on pure divine code and 3am adrak chai.
 
