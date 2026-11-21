@@ -2,7 +2,7 @@ name: Profile Pulse
 
 on:
   schedule:
-    - cron: "0 6 * * 1"
+    - cron: "30 18 * * *"
   workflow_dispatch:
 
 permissions:
