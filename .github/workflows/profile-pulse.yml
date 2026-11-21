@@ -1,0 +1,34 @@
+name: Profile Pulse
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Refresh Live Pulse Table
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
+        run: node scripts/update-pulse.mjs
+      - name: Commit Updated Pulse
+        run: |
+          if git diff --quiet README.md; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name "LevCodeLab"
+          git config user.email "161159741+LevCodeLab@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: refresh weekly profile pulse table"
+          git push
